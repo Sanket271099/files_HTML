@@ -1,0 +1,28 @@
+#parent{
+	height: 400px;
+	width: 50%;
+	background-color: grey;
+	display: flex;
+}
+#child1{
+	height: 100px;
+	width:100px;
+	background-color: red;  
+}
+#child2{ 
+	height: 100px;
+	width:100px;
+	background-color: blue;  
+}
+#child3{
+	
+	height: 100px;
+	width:100px;
+	background-color: cyan;  
+}
+#child4{
+	
+	height: 100px;
+	width:100px;
+	background-color: pink;  
+}

@@ -1,0 +1,10 @@
+#box{
+	height: 400px;
+	width: 400px;
+	border:solid 4px black;
+/*	background:repeating-linear-gradient(to right top,red , blue 50px);*/
+background:radial-gradient(red,blue,cyan);
+background-image:url(https://images.unsplash.com/photo-1561047029-3000c68339ca?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80);
+display: i;
+margin-left: 
+}

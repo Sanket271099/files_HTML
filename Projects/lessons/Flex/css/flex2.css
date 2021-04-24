@@ -1,0 +1,22 @@
+.outer{
+	width:500px;
+	height: 500px;
+	display:flex;
+	flex-direction: row;
+	background-color: grey;
+}
+.outer div{
+	height: 200px;
+	width: 200px;
+
+}
+#box1{
+
+background-color: cyan;
+flex-grow: 4;
+
+}
+#box2{
+flex-grow: 1;
+	background-color: red;
+}

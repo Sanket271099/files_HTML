@@ -1,0 +1,24 @@
+#outer-box1{
+	height:100px;
+	width: 100px;
+	background-color:purple; 
+	margin: 30px;
+	overflow: scroll;
+}
+#inner-box{
+	height:50%;
+	width:50%;
+	background-color:cyan;
+	overflow: scroll;
+}
+#outer-box2{
+	height: 100px;
+	width: 100px;
+	background-color: green;
+}
+div{
+display: inline-block;
+}
+span{
+display: block;
+}

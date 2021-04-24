@@ -1,0 +1,246 @@
+body{
+	margin: 0px;
+}
+#body-header{
+	height: 65vh;
+	background-image:url(image/Cup.jpg);
+	background-size:cover;
+	background-position: center;
+	background-attachment: fixed; 
+}
+
+
+#my-name{
+
+	position: static;
+	color:white;
+	letter-spacing: 4px;
+	
+	font-family: fantasy;
+
+}
+
+.nav-headline{
+  
+  
+} 
+
+.nav-headline li {
+
+	display: inline-block; 
+	margin: 10px;
+	padding-right: 29px;
+	font-family: cursive;
+   
+
+}
+.nav-headline li a:hover{
+	color:black;
+	/*text-decoration: underline;*/
+	transition: 0.5s;	
+    border-bottom:2px solid;
+     box-shadow: 0px 0px 7px 8px black;
+}
+.nav-headline li a{
+	text-decoration: none;
+	color: white;
+   border-radius: 50%;
+   padding: 2px;
+
+}
+.text-center{
+	text-align: center;
+}
+.inline-block li{
+display: inline-block;
+margin: 10px;
+}
+.inline-block li a{
+	
+	color:white;
+}
+.inline-block li a i{
+	padding: 10px;
+	margin-top: 15px;
+	font-size: 2rem;
+	border-radius: 50%
+}
+.inline-block li a i:hover{
+/*color:black;
+border-bottom: solid 2px black;*/
+transition: 0.5s;
+/*border-radius: 50%*/
+box-shadow:0px 0px 6px 9px black;
+}
+#about{
+	height: auto;
+	width: 100%;
+	position: relative;
+}
+#my-image{
+	height: 12rem;
+	width: 12rem;
+margin: auto;
+margin-top:-15vh;
+box-shadow: 0px 0px 6px 7px black;
+border-radius: 50%;
+border-color: white; 
+}
+#my-image img{
+	height: 100%;
+	width: 100%;
+	border-radius: 50%;
+
+}
+section{
+	width: 100%;
+	height: 75vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+section:nth-child(2n+1){
+
+	background-color: white;
+}
+section:nth-child(2n){
+		background-color: lightgrey;
+}
+#board i{
+	margin-right: 5px;
+	color: black;
+}
+.skill-display{
+	width: 70%;
+	height: auto
+	border:solid black 2px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+    
+}
+#skills{
+
+
+}
+#skills span{
+	
+	
+}
+.eighty-five-percentage{
+	width: 85%;
+	background-color: blue;
+	height: inherit;
+
+margin-top: -0.4px;
+
+}
+.skill-name span{
+
+color: white;
+font-size: 1.0rem;
+margin-left:5px;
+}
+.mb75px{
+	margin-bottom: 75px;
+}
+.skill-progress{
+	width: 7rem;
+	height: 1.4rem;
+	background-color: lightgrey;
+	border-radius: 6.8rem;
+	border:2px solid grey;
+	display: flex;
+	border-radius: 0.8rem;
+}
+.skill-progress> div{
+border-radius: 20px 0px 0px 20px;
+}
+.ninty-five-percentage{
+
+	width: 95%;
+	height: inherit;
+	background-color: blue;
+}
+section:target{
+	background-color: cyan;
+}
+#work-experience{
+	font-size: 37px;
+	margin-right:22px;
+}
+#polio{
+	font-size: 37px;
+	margin-right:22px;
+}
+#polio-container{
+	display:flex;
+}
+
+#polio-container div{
+	font-size: 222px;
+margin-top: 100px;
+margin-left: 50px;
+margin-right: 50px;
+text-decoration: none;
+}
+#polio-container div:hover{
+
+	background-color: white;
+	transition: 1s;
+	  box-shadow: 0px 0px 7px 8px black;
+
+
+}
+.timeline{
+	position: relative;
+	width: 75%;
+	border:2px solid black;
+	height: 100%;
+}
+.timeline-box{
+	position: relative;
+	width: 40%;
+	left: 5%;
+	min-height: 80px;
+	border:2px solid black;
+}
+.timeline-box:nth-child(2n){
+	left: 53%;
+}
+.timeline-divider{
+	position: absolute;
+height: 70%;
+width: 0px;
+border: 1px dashed black;
+top: 10%;
+left: 50%;
+}
+.timeline-traveler{
+	position: sticky;
+	top: 20%;
+	transform:rotate(90deg); 
+}
+@media screen and (max-width: 600px){
+	.timeline-divider{
+		left:8%;}
+		.timeline-box{
+			top:10%;
+			left: 16%;
+			width: 80%;
+
+		}
+		.timeline-box:nth-child(2n){
+			top:10%;
+	left: 16%;
+}
+	
+}
+@media screen and(max-width: 600px){
+	#polio-container div{
+	font-size: 222px;
+margin-top: 100px;
+margin-left: 50%;
+
+	}
+}

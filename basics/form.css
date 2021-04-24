@@ -1,0 +1,13 @@
+main{
+	width: 70%;
+	display: inline-block;
+}
+aside{
+	display: inline-block;
+	width:22px;
+}
+#form{
+	font-size: 20px;
+	height: 10rem;
+	width: 20rem;
+}

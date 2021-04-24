@@ -1,0 +1,23 @@
+p{
+	color:#ff7043;
+	font-size: 22px;
+}
+h1{
+	font-size: 100px;
+}
+.uppercase{
+	text-transform: uppercase;
+	
+}
+.cursive{
+	font-family:cursive;
+}
+.color{
+	color:#f03252;
+}
+#change p{
+	color: green;
+}
+#blog-title:hover{
+	color:cyan;
+}

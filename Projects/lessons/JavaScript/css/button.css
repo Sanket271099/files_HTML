@@ -1,0 +1,28 @@
+
+#outer-box{
+	height: 50px;
+	width: 50px;
+	background-color: black;
+}
+#inner-box{
+	height: 30px;
+	width: 30px;
+	background-color:green;
+	position: relative;
+	left:20%;
+	top:20%;
+
+}
+.this{
+	background-color: aqua;
+	font-size: larger;
+}
+#bts{
+	background-color: cyan;
+}
+#bts:hover{
+	color: red;
+	background-color: black;
+
+
+}

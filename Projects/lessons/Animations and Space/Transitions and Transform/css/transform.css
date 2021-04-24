@@ -1,0 +1,25 @@
+#box{
+	height: 100px;
+	width: 100px;
+	background-color: cyan;
+	position: absolute;
+	top:20%;
+	left: 20%;
+	/*transform: rotateX(10deg);*/
+	/*transform: translate(223px,);
+	transition: 1s height ease-in-out 1s ;
+
+
+*/
+/*transition: 1s steps(2,end);	*/
+transition: 1s ease-in-out;
+}
+	#box:hover{
+		transform: scale(1.5) translate(150px);
+	/*	transform: rotate(10deg);
+			transform: rotate(20deg);
+				transform: rotate(30deg);*/
+					transform: rotate(80deg) translate(1px,-150px);
+					border-radius: 50%;
+
+	}

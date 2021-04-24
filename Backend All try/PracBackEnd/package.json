@@ -1,0 +1,11 @@
+{
+  "name": "pracbackend",
+  "version": "1.0.0",
+  "description": "practice 001",
+  "main": "backend.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sanket Nandkishor Charbhe",
+  "license": "ISC"
+}

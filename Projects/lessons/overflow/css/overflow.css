@@ -1,0 +1,7 @@
+#container{
+	width: 50px;
+	height: auto;
+	border:solid 4px black;
+	background-color: grey;
+	overflow-wrap: break-word;
+}

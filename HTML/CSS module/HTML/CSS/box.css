@@ -1,0 +1,31 @@
+html{
+	font-size: 30px;
+}
+#box1{
+	height:4rem;
+	width: 6rem;
+	background-color: blue;
+	border-width: 3px;
+	border-color: red;
+	border-style: solid;
+}
+#box2{
+	height: 50%;
+	width: 50%;
+	background-color: cyan;
+	border-width: 3px;
+	border-color: purple;
+	border-style: dotted;
+}
+#image{
+	height:100rem;
+	width: 100rem; 
+	background-image: url("Lion.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+#hello{
+	font-size:22px;
+	font-style: cursive;
+	background-color:blue;
+}

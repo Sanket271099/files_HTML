@@ -1,0 +1,37 @@
+#div1{
+	height: 50%/*80px*/;
+	width: 50% /*200px*/;
+	/*background-color:#1fd3d1; this one is hexa decimal*/
+/*	background-color: rgb(10,500,600); THIS one is RGB value*/
+/*background-color: rgba(100,200,400,0.6);*/
+background-color:rgb(22,33,100);
+border-width: 3px;
+border-style: dotted;
+border-radius: 50px;
+border-color: cyan;
+padding: 30px 40px;
+}
+#div2{
+	background-color:green;
+	/*width:50;
+	height:100px;
+	border-style: solid;
+	/*border-color: purple;*/
+	/*border-width: 9px 10px 100px 12px;*/
+	border: 10px dotted red;
+	border-top-width: 5px;
+	border-bottom-width: 5px;
+	border-top-color:#ff6060;
+	border-bottom-color:#ff6060;
+	border-top-right-radius: 50px;
+	border-top-left-radius: 50px;
+margin: 4px;
+padding: 10px;
+}
+#div3{
+	background-color: purple;
+height: 100px ;
+width: 100px;
+border-top-color: gold;
+margin: auto;
+}

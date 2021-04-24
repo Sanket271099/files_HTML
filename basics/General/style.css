@@ -1,0 +1,46 @@
+p{
+	color:blue;
+	font-size:22px;
+/*	font-family: monospace;*/
+	font-family:sans-serif; 
+}/*h4{
+	text-transform: uppercase;
+}*/
+.uppercase{
+	text-transform:uppercase; 
+}
+.cursive{
+	font-family:sans-serif; 
+}
+p{
+	border-top-width:22px;
+	border-top-color: purple; 
+	font-family: cursive;
+}#popat{
+	color:green;
+}
+#name{
+	color:olive;
+}
+
+h1,p{
+font-family:sans-serif; 
+}	
+li h3{
+	font-family: serif;
+	font-size: 10px;
+	text-transform: uppercase;
+}
+#heading-program:hover{
+color:blue;
+}
+#para1{
+	font-weight:900;
+	text-align:center;
+	line-height: 100px;
+     color: red;
+     word-spacing: 21px;
+	text-decoration: underline; 
+	text-shadow:currentColor;
+	font-size:12px;
+}

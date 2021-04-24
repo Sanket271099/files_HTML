@@ -1,0 +1,13 @@
+p a{
+	text-decoration: none;
+}
+a:active{
+color: orange;
+}
+p:active{
+	background-color: orange;
+}
+a:visited{
+	color:orange;
+	font-size: 22px;
+}

@@ -1,0 +1,55 @@
+.box{
+	height: 100px;
+	width: 100px;
+	background-color:pink;
+	/*animation: changeShape 1s ease-in-out infinite alternate; */
+	position: absolute;
+	left: 50%;
+	top:20%;
+	
+	
+
+}
+@keyframes changeShape{
+	/*from{
+		border-radius: 0%;
+		size: 10px;
+	}
+	to{
+		border-radius: 50%;
+		size:500px;
+	}*/
+	0%{
+		border-radius: 0%;
+		
+	}
+	25%{
+		border-radius: 12.5%;
+		
+	}
+	50%{
+		border-radius: 25%;
+		
+	}
+	100%{
+		border-radius: 50%;
+			
+	}
+}@keyframes rotate{
+	from{
+   transform: rotate(0deg);
+	}
+	to{
+		transform:rotate(360deg);
+	}
+}
+@keyframes size{
+	from{
+		height: 200px;
+		width: 200px;
+	}
+	to{
+		height: 100px;
+		width: 100px;
+	}
+}

@@ -1,0 +1,95 @@
+#logo{
+	height: 100px;
+	width: 100px;
+	background-image:url("image/logo.png");
+	
+	margin-top: 50px;
+	margin-left: 50px;
+
+background-size: contain;
+	background-repeat: no-repeat;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+#website{
+	position: relative;
+	top: -70px;
+	left: 50px;
+}
+#blog{
+	position: relative;
+	top:-92px;
+	left: 51px;
+}
+#Cover{
+	background-image:url("image/1.png");
+	background-repeat: no-repeat;
+	height: 300px;
+	width: 90%;
+	background-size: cover;
+	position: relative;
+	left: 50px;
+	top:-102px;
+	}
+#Headline{
+	position: relative;
+	left: 60px;
+	top:-40px;
+	font-size: 47px;
+}
+#HeadlineBox{
+	width: 63%;
+	display: inline-block;
+	position: static;
+}
+#inbox{
+position: relative;
+left: 30px;
+	border-top: solid black 3px;
+	top:-295px;
+}
+#outer-Inbox{
+	position: relative;
+	top:-119px;
+
+	display: inline-block;
+		width: 30%;
+
+}
+#AstepPic{
+	background-image: url("image/2.png");
+	width: 76%;
+	height: 316px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	left: 187px;
+
+}
+#para{
+	width: 76%;
+	height: 100px;
+	position: relative;
+	left: 187px;
+}
+#caption{
+
+}
+#bt1{
+	margin-top:10px; 
+}
+#codingpic{
+	background-image: url("image/Coding.jpeg");
+	width:76%;
+	height:342px;
+	position:relative;
+	left: 187px;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+#strip{
+	background-color: grey;
+	color:darkorange;
+}
